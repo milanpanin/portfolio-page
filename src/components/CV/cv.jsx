@@ -1,6 +1,6 @@
 import "./cv.css";
 
-const CV = () => {
+const Cv = () => {
     return (
         <section className="cv">
             <h1>CV</h1>
@@ -8,4 +8,4 @@ const CV = () => {
      );
 }
  
-export default CV;
+export default Cv;

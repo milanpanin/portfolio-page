@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/navigation/navigation';
 import Home from './components/home/home';
-import CV from './components/cv/cv';
+import Cv from './components/cv/cv';
 import Projects from './components/projects/projects';
 import Blog from './components/blog/blog';
 
@@ -18,7 +18,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/cv">
-            <CV />
+            <Cv />
           </Route>
           <Route path="/projects">
             <Projects />
