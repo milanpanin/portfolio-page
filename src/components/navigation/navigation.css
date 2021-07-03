@@ -28,8 +28,6 @@
     color: #d83b50;
 }
 
-
-
 .navigation-list{
     display: flex;
     justify-content: space-between;
@@ -41,6 +39,8 @@
     font-size: 18px;
     cursor: pointer;
     transition: 0.2s;
+    color: #ad2739;
+    text-decoration: none;
 }
 
 .navigation-item:nth-child(4){
