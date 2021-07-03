@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  font-family: 'Nunito', sans-serif;
+}
+
+.app{
+  background-color: #081017;
+  height: 100vh;
+  color: #ad2739;
+}
