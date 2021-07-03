@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
-import Navigation from './components/navigation/navigation';
-import Home from './components/home/home';
-import Cv from './components/cv/cv';
-import Projects from './components/projects/projects';
-import Blog from './components/blog/blog';
+import Navigation from './components/navigation/navigation.jsx';
+import Home from './components/home/home.jsx';
+import Cv from './components/cv/cv.jsx';
+import Projects from './components/projects/projects.jsx';
+import Blog from './components/blog/blog.jsx';
 
 function App() {
   return (
