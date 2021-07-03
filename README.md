@@ -1,2 +1,2 @@
 # Portfolio Page 
-### ...for the best developer on WWW :)
+### ...of the best developer on WWW :)
