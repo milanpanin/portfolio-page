@@ -5,9 +5,8 @@ const Home = () => {
         <section className="home">
             <h1 className="header-text">Milan - Web Developer</h1>
             <p className="header-details">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. At corporis officia, 
-                cupiditate omnis blanditiis delectus fuga, soluta fugiat explicabo, accusamus 
-                sapiente debitis ea tenetur eveniet deserunt. Deleniti quo possimus earum?
+                Milan is a student from Novi Sad / Serbia, who likes to spend his time exploring the 
+                interesting world of JavaScript and learning how to develop the web in the best ways!
             </p>
         </section>
     );

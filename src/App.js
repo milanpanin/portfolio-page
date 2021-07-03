@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/navigation/navigation';
 import Home from './components/home/home';
-import CV from './components/CV/cv';
-import Projects from './components/Projects/projects';
-import Blog from './components/Blog/blog';
+import CV from './components/cv/cv';
+import Projects from './components/projects/projects';
+import Blog from './components/blog/blog';
 
 function App() {
   return (
