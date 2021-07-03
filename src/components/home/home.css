@@ -12,6 +12,26 @@
     max-width: 700px;
 }
 
+.header-social{
+    margin: 15px 0 0 0;
+    font-size: 35px;
+    
+}
+
+.header-social i{
+    transition: 0.3s;
+}
+
+.header-social i:hover{
+    cursor: pointer;
+    color: #f37788;
+    transform: rotate(15deg);
+}
+
+.header-social i:nth-child(2){
+    margin: 0 25px;
+}
+
 @media only screen and (max-width: 1130px) {
     .home{
         margin: 25vh 15px 0 15px;
