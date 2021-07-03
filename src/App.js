@@ -4,7 +4,7 @@ import './App.css';
 import Navigation from './components/navigation/navigation.jsx';
 import Home from './components/home/home.jsx';
 import Cv from './components/CV/cv.jsx';
-import Projects from './components/projects/projects.jsx';
+import Projects from './components/Projects/projects.jsx';
 import Blog from './components/Blog/blog.jsx';
 
 function App() {
