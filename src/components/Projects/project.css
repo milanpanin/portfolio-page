@@ -1,0 +1,11 @@
+.project{
+    margin: 50px 0;
+    border: 2px solid #ad2739;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.project:hover{
+    transform: translate(-15px, 0px);
+    box-shadow: 20px 15px 0 0px #ad2739;
+}
