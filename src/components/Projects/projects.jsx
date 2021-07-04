@@ -5,29 +5,38 @@ import { useState } from "react";
 const Projects = () => {
     const [projects] = useState([
         {
-            id: "01",
-            name: "Pet Shop",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, harum. Saepe earum exercitationem distinctio, hic consequatur officia illum excepturi iste corporis labore quo fugiat harum? Ipsa provident exercitationem odio temporibus.",
-            projectType: "Landing page",
-            technologys: ["HTML", "CSS", "JavaScript"],
-            date: "2019",
-            source: "https://github.com/milanpanin/PetHouse"
-        },
-        {
-            id: "02",
-            name: "Pet Shop",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, harum. Saepe earum exercitationem distinctio, hic consequatur officia illum excepturi iste corporis labore quo fugiat harum? Ipsa provident exercitationem odio temporibus.",
-            projectType: "Landing page",
-            technologys: ["HTML", "CSS", "JavaScript"],
-            date: "2019",
-            source: "https://github.com/milanpanin/PetHouse"
+            id: "04",
+            name: "CRUD User",
+            description: "Small React CRUD application for abstract customer management. ",
+            projectType: "CRUD Web Application",
+            technologys: ["React.js / Function components"],
+            date: "2021",
+            source: "https://github.com/milanpanin/crud-user"
         },
         {
             id: "03",
+            name: "VTŠ-Source",
+            description: "A project created for the needs of students for easier and better study.",
+            projectType: "Web Application",
+            technologys: ["React.js", "Firebase"],
+            date: "In developmnet",
+            source: "https://github.com/milanpanin/vts-source"
+        },
+        {
+            id: "02",
+            name: "Korpica",
+            description: "Small web store application created to master the basics of React.",
+            projectType: "Web Application",
+            technologys: ["React.js / Class components"],
+            date: "2020",
+            source: "https://github.com/milanpanin/Korpica"
+        },
+        {
+            id: "01",
             name: "Pet Shop",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, harum. Saepe earum exercitationem distinctio, hic consequatur officia illum excepturi iste corporis labore quo fugiat harum? Ipsa provident exercitationem odio temporibus.",
-            projectType: "Landing page",
-            technologys: ["HTML", "CSS", "JavaScript"],
+            description: "PetHouse is one of my landing page projects created for personal training and improvement my skills. ",
+            projectType: "Landing Page",
+            technologys: ["HTML", "CSS"],
             date: "2019",
             source: "https://github.com/milanpanin/PetHouse"
         }

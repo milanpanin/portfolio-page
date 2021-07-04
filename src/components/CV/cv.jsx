@@ -5,9 +5,9 @@ import CvPdf from "../../content/Milan-Panin-CV.pdf";
 const Cv = () => {
     return (
         <section className="cv">
+            <h1 className="cv-header">Curriculum Vitae(CV)</h1>
             <img className="cv-img" src={CvImg} alt="CV" /><br/>
             <a href={CvPdf} download><button className="cv-downloadBtn">Download CV</button></a>
-            
         </section>
      );
 }
