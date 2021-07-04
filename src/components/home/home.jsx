@@ -9,9 +9,9 @@ const Home = () => {
                 interesting world of JavaScript and learning how to develop the web in the best ways!
             </p>
             <div className="header-social">
-                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                <i className="fa fa-github" aria-hidden="true"></i>
-                <i className="fa fa-envelope" aria-hidden="true"></i>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/milan-panin/"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a> 
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/milanpanin"><i className="fa fa-github" aria-hidden="true"></i></a> 
+                <a href="mailto: milanpanin@gmail.com"><i className="fa fa-envelope" aria-hidden="true"></i></a> 
             </div>
         </section>
     );

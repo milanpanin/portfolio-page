@@ -3,10 +3,24 @@
   padding: 0;
   cursor: default;
   font-family: 'Nunito', sans-serif;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
 }
 
 .app{
   background-color: #081017;
   height: 100vh;
   color: #ad2739;
+}
+
+body{
+  scrollbar-width: none;
+}
+
+@-moz-document url-prefix() {
+  html,body{overflow-x: hidden !important;}
 }

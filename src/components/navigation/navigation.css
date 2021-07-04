@@ -14,18 +14,12 @@
 }
 
 .navigation-logo i{
-    cursor: pointer;
     color: #d83b50;
     animation: logoAnimation 6s infinite;
 }
 
 .navigation-logo p{
     display: inline;
-    cursor: pointer;
-}
-
-.navigation-logo:hover{
-    color: #d83b50;
 }
 
 .navigation-list{

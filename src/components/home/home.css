@@ -13,22 +13,21 @@
 }
 
 .header-social{
-    margin: 15px 0 0 0;
-    font-size: 35px;
-    
+    margin: 20px 0 0 0;
 }
 
 .header-social i{
-    transition: 0.3s;
+    transition: 0.5s;
+    color: #ad2739;
+    font-size: 38px;
 }
 
 .header-social i:hover{
     cursor: pointer;
-    color: #f37788;
-    transform: rotate(15deg);
+    color: #f2f2f2;
 }
 
-.header-social i:nth-child(2){
+.header-social a:nth-child(2){
     margin: 0 25px;
 }
 
