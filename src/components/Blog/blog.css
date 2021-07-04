@@ -11,3 +11,16 @@
 .blog-info{
     margin: 0 0 0 15px;
 }
+
+.blog-info span{
+    display: inline-block;
+    margin: 0 0 10px 0;
+}
+
+.blog-info a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #ad2739;
+    padding: 0 5px;
+}
