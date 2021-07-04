@@ -1,4 +1,9 @@
 .blog{
-    margin: 50px auto 0 auto;
+    margin: 0 auto ;
     max-width: 1100px;
+    height: calc(100vh - 80px);
+}
+
+.blog-header{
+    padding: 50px 0 0 0;
 }

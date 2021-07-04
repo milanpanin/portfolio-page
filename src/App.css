@@ -13,12 +13,12 @@
 
 .app{
   background-color: #081017;
-  height: 100vh;
   color: #ad2739;
 }
 
 body{
   scrollbar-width: none;
+  background-color: #081017;
 }
 
 @-moz-document url-prefix() {

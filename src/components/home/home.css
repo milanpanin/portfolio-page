@@ -1,9 +1,11 @@
 .home{
-    margin: 25vh auto 0 auto;
+    margin: 0 auto;
     max-width: 1100px;
+    height: calc(100vh - 80px);
 }
 
 .header-text{
+    padding: 200px 0 0 0;
     font-size: 40px;
 }
 

@@ -9,3 +9,32 @@
     transform: translate(-15px, 0px);
     box-shadow: 20px 15px 0 0px #ad2739;
 }
+
+.project-name{
+    font-size: 26px;
+}
+
+.project-type{
+    margin: 0px 0 15px 0;
+}
+
+.project-description{
+    margin: 0 0 15px 0;
+}
+
+.project-visit{
+    margin: 25px 0 0 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ad2739;
+    padding: 5px 25px;
+    color: #ad2739;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.project-visit:hover{
+    background-color: #ad2739;
+    color: #fff;
+}
+
