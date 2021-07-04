@@ -27,6 +27,10 @@
     color: #f2f2f2;
 }
 
+.header-social a span{
+    display: none;
+}
+
 .header-social a:nth-child(2){
     margin: 0 25px;
 }
