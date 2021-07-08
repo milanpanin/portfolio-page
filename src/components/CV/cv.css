@@ -36,3 +36,36 @@
     background-color: #ad2739;
     color: #fff;
 }
+
+@media only screen and (max-width: 1130px) {
+    .cv{
+        margin: 50px 15px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .cv-img{
+        max-width: 100%;
+        box-shadow: 10px 10px 0 0px #ad2739;
+    }
+
+    .cv-img:hover{
+        transform: none;
+        box-shadow: 10px 10px 0 0px #ad2739;
+    }
+
+    .cv-downloadBtn{
+        margin: 50px 0 0px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cv{
+        margin: 25px 15px;
+    }
+
+    .cv-header{
+        text-align: center;
+    }
+}
+

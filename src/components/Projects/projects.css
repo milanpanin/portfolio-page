@@ -7,3 +7,16 @@
 .projects-header{
     padding: 50px 0 0 0;
 }
+
+@media only screen and (max-width: 1130px) {
+    .projects{
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-header{
+        padding: 25px 0 0 0;
+        text-align: center;
+    }
+}

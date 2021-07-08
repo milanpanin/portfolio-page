@@ -38,3 +38,19 @@
     color: #fff;
 }
 
+@media only screen and (max-width: 600px) {
+    .project{
+        font-size: 14px;
+        box-shadow: 10px 10px 0 0px #ad2739;
+    }
+
+    .project:hover{
+        transform: none;
+        box-shadow: 10px 10px 0 0px #ad2739;
+    }
+    
+    .project-name{
+        font-size: 22px;
+    }
+}
+
