@@ -5,22 +5,13 @@ import { useState } from "react";
 const Projects = () => {
     const [projects] = useState([
         {
-            id: "04",
+            id: "03",
             name: "CRUD User",
             description: "Small React CRUD application for abstract customer management. ",
             projectType: "CRUD Web Application",
             technologys: ["React.js / Function components"],
             date: "2021",
             source: "https://github.com/milanpanin/crud-user"
-        },
-        {
-            id: "03",
-            name: "VTŠ-Source",
-            description: "A project created for the needs of students for easier and better study.",
-            projectType: "Web Application",
-            technologys: ["React.js", "Firebase"],
-            date: "In developmnet",
-            source: "https://github.com/milanpanin/vts-source"
         },
         {
             id: "02",
